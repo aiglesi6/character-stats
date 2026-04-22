@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Summary</h2>
+    <h2>Your Character:</h2>
 
     <p>Name: {{ store.name }}</p>
 

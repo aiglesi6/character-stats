@@ -1,10 +1,18 @@
 <template>
-  <div>
-    <h1>Character Builder</h1>
+  <div class="container">
+    <h1>Create Your Character</h1>
 
-    <NameInput />
-    <StatControls />
-    <CharacterSummary />
+    <div class="section">
+      <NameInput />
+    </div>
+
+    <div class="section">
+      <StatControls />
+    </div>
+
+    <div class="section">
+      <CharacterSummary />
+    </div>
   </div>
 </template>
 
@@ -15,11 +23,17 @@ import CharacterSummary from './components/CharacterSummary.vue'
 </script>
 
 <style>
-body {
-  font-family: Arial, sans-serif;
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-h1 {
-  text-align: center;
+.section {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
 }
 </style>
