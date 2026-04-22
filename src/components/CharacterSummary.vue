@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import { useCharacterStore } from '@/stores/character'
+import { useCharacterStore } from '../stores/character'
 
 export default {
   setup() {
