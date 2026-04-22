@@ -35,5 +35,7 @@ import CharacterSummary from './components/CharacterSummary.vue'
   padding: 15px;
   border: 1px solid #ddd;
   border-radius: 8px;
+  background-color: #1e3a8a;
+  border: 1px solid #3b82f6;
 }
 </style>
