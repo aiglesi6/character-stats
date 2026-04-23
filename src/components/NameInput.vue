@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Character Name</h2>
+    <h2>Character Name:</h2>
     <input v-model="name" placeholder="Enter Name:" />
   </div>
 </template>

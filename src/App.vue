@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Create Your Character</h1>
+    <h1>Create Your Character!</h1>
 
     <div class="section">
       <NameInput />
@@ -25,11 +25,11 @@ import CharacterSummary from './components/CharacterSummary.vue'
 <style>
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #0f172a;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #000;
   background-image: url('/character.png');
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: 80% center;
   background-size: 900px auto;
 }
 
